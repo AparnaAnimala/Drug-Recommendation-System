@@ -1,4 +1,5 @@
-Drug Recommendation System
+# Drug Recommendation System
+
 This project is a machine learning-based drug recommendation system that predicts suitable drugs for patients based on their health conditions and attributes such as age, sex, blood pressure, and cholesterol levels.
 
 Features
