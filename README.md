@@ -24,14 +24,14 @@ Matplotlib / Seaborn (Visualization)
 
 Flask / Streamlit (optional frontend)
 
-Dataset
+# Dataset
 Dataset used: Drug Classification Dataset
 Source: UCI Machine Learning Repository
 
-Feature	Description
-Age	Patient age group
-Sex	Male or Female
-BP	Blood Pressure (Low, Normal, High)
-Cholesterol	(Normal, High)
-Na_to_K	Sodium to Potassium ratio
-Drug	Drug recommended (DrugA–DrugY)
+# Feature	Description
+Age	               Patient age group
+Sex	               Male or Female
+BP	               Blood Pressure (Low, Normal, High)
+Cholesterol	       (Normal, High)
+Na_to_K	           Sodium to Potassium ratio
+Drug	             Drug recommended (DrugA–DrugY)
