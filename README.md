@@ -49,42 +49,35 @@ Cholesterol	       (Normal, High)
 Na_to_K	           Sodium to Potassium ratio
 Drug	             Drug recommended (DrugA–DrugY)
  # How to Run
-🔧 1. Clone the Repository
-bash
-Copy
-Edit
+1. Clone the Repository
+
 git clone https://github.com/your-username/drug-recommendation-system.git
 cd drug-recommendation-system
-🐍 2. Create and Activate a Virtual Environment
-bash
-Copy
-Edit
+
+2. Create and Activate a Virtual Environment
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-📦 3. Install Dependencies
-bash
-Copy
-Edit
+
+3. Install Dependencies
+
 pip install -r requirements.txt
-▶️ 4. Run the Model
-bash
-Copy
-Edit
+
+4. Run the Model
+
 python main.py
 (Optional)
 
-bash
-Copy
-Edit
+
 streamlit run app.py  # If using Streamlit UI
-📈 Sample Output
+# Sample Output
 Model Accuracy: ~94%
 
 Confusion Matrix
 
 Drug predictions based on test input
 
-📋 Future Improvements
+# Future Improvements
 Use larger real-world healthcare datasets
 
 Integrate with an EHR system
