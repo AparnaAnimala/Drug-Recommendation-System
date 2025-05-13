@@ -2,7 +2,7 @@
 
 This project is a machine learning-based drug recommendation system that predicts suitable drugs for patients based on their health conditions and attributes such as age, sex, blood pressure, and cholesterol levels.
 
-#Features
+# Features
 Predicts drug type using patient input
 
 Built with machine learning (classification models)
@@ -13,7 +13,7 @@ User-friendly interface (optional: with Flask/Streamlit)
 
 Customizable and extendable
 
-#Technologies Used
+# Technologies Used
 Python
 
 Pandas, NumPy
