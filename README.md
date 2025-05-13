@@ -48,3 +48,47 @@ BP	               Blood Pressure (Low, Normal, High)
 Cholesterol	       (Normal, High)
 Na_to_K	           Sodium to Potassium ratio
 Drug	             Drug recommended (DrugA–DrugY)
+ # How to Run
+🔧 1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/drug-recommendation-system.git
+cd drug-recommendation-system
+🐍 2. Create and Activate a Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+📦 3. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+▶️ 4. Run the Model
+bash
+Copy
+Edit
+python main.py
+(Optional)
+
+bash
+Copy
+Edit
+streamlit run app.py  # If using Streamlit UI
+📈 Sample Output
+Model Accuracy: ~94%
+
+Confusion Matrix
+
+Drug predictions based on test input
+
+📋 Future Improvements
+Use larger real-world healthcare datasets
+
+Integrate with an EHR system
+
+Add user authentication
+
+Deploy using Docker & Cloud services
